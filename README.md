@@ -89,6 +89,10 @@ resources/      triaged reading list
 progress/       journal + skills matrix (yours to fill in)
 ```
 
+## License
+
+The code and course material are released under the [MIT License](LICENSE).
+
 ## Credits
 
-Music in the teaser and onboarding videos: "Happy Beats / Business Moves" (Vol. 12) by Sascha Ende, [ende.app](https://ende.app/en), licensed under [CC BY 4.0](https://ende.app/en/standard-license). Music: Sascha Ende, ende.app (CC BY 4.0).
+Music in the teaser and onboarding videos: "Happy Beats / Business Moves" (Vol. 12) by Sascha Ende, [ende.app](https://ende.app/en), licensed under [CC BY 4.0](https://ende.app/en/standard-license). Music: Sascha Ende, ende.app (CC BY 4.0). The track is not covered by the MIT License.
