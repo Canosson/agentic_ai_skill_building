@@ -8,6 +8,9 @@ import ast
 import datetime as dt
 import operator
 import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, so `lab` imports without PYTHONPATH
 
 from lab.llm import AnthropicLLM
 from lab.testing import load

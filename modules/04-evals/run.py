@@ -12,7 +12,10 @@ Results are saved in modules/04-evals/results/<name>.json
 import argparse
 import importlib.util
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, so `lab` imports without PYTHONPATH
 
 from lab.llm import AnthropicLLM
 from lab.loop import DEFAULT_SYSTEM, run_agent

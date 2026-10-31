@@ -1,5 +1,10 @@
 """Your first real model call. Run: uv run python modules/00-setup/hello.py"""
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, so `lab` imports without PYTHONPATH
+
 from lab.llm import AnthropicLLM
 
 # Rough USD per million tokens for the default model (Haiku 5.5). Check current pricing

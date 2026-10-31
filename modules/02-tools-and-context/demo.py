@@ -9,6 +9,8 @@ attack surface. A prompt-injected document can ask the model to read ~/.ssh/id_r
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, so `lab` imports without PYTHONPATH
+
 from lab.llm import AnthropicLLM
 from lab.loop import run_agent
 from lab.testing import load
