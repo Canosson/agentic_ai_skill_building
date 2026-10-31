@@ -1,4 +1,24 @@
-# Agentic Skill Builder
+<h1 align="center">Agentic Skill Builder</h1>
+
+<p align="center">
+  <a href="docs/media/teaser.mp4" title="Watch the 24-second teaser (MP4)">
+    <img src="docs/media/teaser.gif" alt="Animated teaser: Stop reading about agents. Build them. Ten modules, then Build, Break, Measure. Tests run offline for $0, modules 00 to 08 cost a few dollars, and the capstone takes 2 to 3 weeks." width="800">
+  </a>
+</p>
+
+<p align="center">
+  <b>Stop reading about agents. Build them.</b><br>
+  10 modules · offline tests · a few dollars total · one capstone you can defend
+</p>
+
+<p align="center">
+  <a href="docs/media/teaser.mp4">▶ Teaser (24 s)</a> ·
+  <a href="docs/media/onboarding.mp4">▶ Welcome &amp; onboarding (24 s)</a> ·
+  <a href="PROGRAM_GUIDE.md">Program guide</a> ·
+  <a href="modules/00-setup/README.md">Start module 00</a>
+</p>
+
+---
 
 A build-first training environment for agentic AI. You won't read about agents here. You'll build the parts every agent framework is made of, test them, break them on purpose, and measure them, then make decisions about them like a technical lead.
 
@@ -68,3 +88,7 @@ strategy/       decision tools for the strategic track
 resources/      triaged reading list
 progress/       journal + skills matrix (yours to fill in)
 ```
+
+## Credits
+
+Music in the teaser and onboarding videos: "Happy Beats / Business Moves" (Vol. 12) by Sascha Ende, [ende.app](https://ende.app/en), licensed under [CC BY 4.0](https://ende.app/en/standard-license). Music: Sascha Ende, ende.app (CC BY 4.0).

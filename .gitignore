@@ -5,3 +5,6 @@ __pycache__/
 .pytest_cache/
 modules/03-mcp/*.json
 !modules/03-mcp/claude_desktop_config.example.json
+.claude
+brag-output
+brag-output-2026-10-31-133235
