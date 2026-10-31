@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "notes": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/absolute/path/to/agentic-skill-builder",
+        "python",
+        "modules/03-mcp/server.py"
+      ]
+    }
+  }
+}

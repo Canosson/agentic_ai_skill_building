@@ -1,0 +1,21 @@
+[project]
+name = "agentic-skill-builder"
+version = "0.1.0"
+description = "A build-first training environment for agentic AI."
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=2.0",
+    "langgraph>=1.2.19",
+    "mcp>=2.3,<3",
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["modules"]
+pythonpath = ["."]
+addopts = "-p no:cacheprovider"
+markers = ["live: calls the real API (run with LAB_LIVE=1)"]
+filterwarnings = ["ignore:.*asyncio.iscoroutinefunction.*:DeprecationWarning"]
+
+[tool.uv]
+package = false
